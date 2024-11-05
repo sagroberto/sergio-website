@@ -1,0 +1,40 @@
+header{
+    position: fixed; /*Fija el header*/
+    top: 0;
+    left: 0;
+    z-index: 2; /*Se mantiene encima de todo el contenido*/
+    width: 100%;
+}
+
+.container-header{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+}
+.menu {
+    background-color: #000;
+    padding: 0.2rem;/* Espaciado interno */
+    width: 500px;
+}
+
+nav {
+    height: 100%;
+}
+
+nav ul {
+    height: 100%;
+    list-style-type: none;/* Sin viñetas */
+    padding: 0;/* Sin padding */
+    display: flex; /*Elementos uno al lado del otro*/
+    justify-content: space-between; /*Espacio simetrico entre los elementos*/
+}
+
+nav a {
+    color: #77e4ff;/* Color de los enlaces */
+    text-decoration: none;/* Sin subrayado */
+}
+
+nav a:hover {
+    text-decoration: underline;/* Subrayado al pasar el ratón */
+}
